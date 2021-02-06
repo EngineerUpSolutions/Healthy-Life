@@ -44,15 +44,28 @@ class CoordinateController extends Controller
      */
     public function store(StoreCoordinate $request)
     {
-   
+    //    return 'well done';
+       $provider = Provider::create($request->all());
 
+       $num = $provider->assistance;
+ 
+       $assistance = Assistance::find($num);
+    //    return $assistance;
 
+     
+        
+       return view('specially.coordinations.prueba',compact('assistance'));
+        
+    //    return redirect()->route('coordinations.show',$assistance);
        
-        $provider = Provider::create($request->all());
+
+        
+
+        // return view('specially.coordinations.show',compact('assistance'));
        
 
-
-        return view('specially.coordinations.showProvider',compact('provider'));
+        
+        // return view('specially.coordinations.showProvider',compact('provider'));
        
         
         
@@ -86,6 +99,9 @@ class CoordinateController extends Controller
 
         return view('specially.coordinations.check',compact('provider','assistance'));
     }
+
+
+    
 
     public function editProvider(Provider $provider,Assistance $assistance)
     {
@@ -148,4 +164,10 @@ class CoordinateController extends Controller
         
         return view('specially.coordinations.index2',compact('assistances'));
     }
+
+    // public function storemain(StoreCoordinate $request,Assistance $assistance)
+    // {
+    //     return redirect()->route('coordination.storemain',$assistance);
+
+    // }
 }

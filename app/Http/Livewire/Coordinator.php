@@ -17,13 +17,6 @@ class Coordinator extends Component
     {
         // $modules = Module::where('user_id', auth()->user()->id)->get();
         $assistances = Assistance::where('symptoms','LIKE','%'. $this->search .'%')->paginate();
-        
-        
-        
-   
-        
-        
-       
         return view('livewire.coordinator',compact('assistances'));
     }
 

@@ -32,6 +32,8 @@ class ResultAssistance extends Component
        
         $this->user = $user;
         $this->assistances = Assistance::select('id')->where('user_id','=',$user->id)->get();
+
+        
         $this->answere = Answere::where('assistance_id','=',  $this->assistances[0]->id)->get();
        
         

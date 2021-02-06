@@ -26,6 +26,10 @@ Route::get('modules/{module}/beneficiaries', ModulesBeneficiaries::class)->name(
 
 
 Route::resource('assistances', CoordinateController::class)->names('coordinations');
+
+// Route::post('users/{id}', [CoordinateController::class)->names('coordinations');
+
+
 Route::get('provider/{provider}/{assistance}/checkout',[CoordinateController::class, 'checkProvider'])->name('providers.checkProvider');
 Route::get('provider/{provider}/{assistance}/edit',[CoordinateController::class, 'editProvider'])->name('providers.editProvider');
 Route::put('provider/{provider}/{assistance}/update',[CoordinateController::class, 'updateProvider'])->name('providers.updateProvider');

@@ -23,6 +23,7 @@ class ProviderSearch extends Component
        
     }
 
+    
     public function render()
     {
         $providers = Provider::where('name','LIKE','%'. $this->search .'%')

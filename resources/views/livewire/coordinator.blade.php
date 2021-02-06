@@ -75,7 +75,7 @@
                                 @break
                             @case(1)
                             <span class="cursor-pointer px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-400 text-white">
-                              coordinated
+                               Done
                             </span> 
                                 @break
                            
@@ -94,6 +94,7 @@
 
               @endforeach
   
+              
               <!-- More ross... -->
             </tbody>
 
