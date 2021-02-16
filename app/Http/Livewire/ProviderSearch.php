@@ -28,6 +28,7 @@ class ProviderSearch extends Component
     {
         $providers = Provider::where('name','LIKE','%'. $this->search .'%')
                               ->orWhere('kind','LIKE','%'. $this->search .'%')
+                              ->orWhere('address','LIKE','%'. $this->search .'%')
                               ->latest('id')
                               ->paginate(6);
 

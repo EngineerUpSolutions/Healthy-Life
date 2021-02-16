@@ -12,6 +12,7 @@ class AssistanceController extends Controller
         $assistances = Assistance::create($request->all());
         // $assistances->user()->attach(auth()->user()->id);
    
+        // href="{{route('modules.status',$module)}};
         return 'well done';
         // return view('suggestion.done',compact('assistances'));
     }

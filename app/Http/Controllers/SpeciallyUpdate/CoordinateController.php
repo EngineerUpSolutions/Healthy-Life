@@ -170,4 +170,16 @@ class CoordinateController extends Controller
     //     return redirect()->route('coordination.storemain',$assistance);
 
     // }
+
+
+    // test 
+
+    // public function teststatus(Request $request,Provider $provider,Assistance $assistance)
+    // {
+        // return "hello";
+        // $assistance->update($request->all());
+
+        // return $provider;
+    // }
+    // test
 }

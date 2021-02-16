@@ -3,6 +3,7 @@
   <x-slot name="module">
     {{$module->slug}}
   </x-slot>
+  
 
   {!! Form::model($module, ['route' => ['updates.update',$module],'method' => 'put','files' => true]) !!}
            

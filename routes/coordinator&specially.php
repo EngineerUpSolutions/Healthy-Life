@@ -12,6 +12,7 @@ use App\Http\Controllers\SpeciallyUpdate\CategoryController;
 use App\Http\Controllers\SpeciallyUpdate\TagController;
 use App\Http\Controllers\SpeciallyUpdate\ShareController;
 use App\Http\Livewire\ModulesBeneficiaries;
+use App\Http\Controllers\SpeciallyUpdate\TestStatusController;
 
 Route::resource('modules', ModuleController::class)->names('updates');
 Route::get('modules/{module}/exactly',ModuleExactly::class)->name('updates.exactly');
@@ -37,6 +38,11 @@ Route::get('providershow/show',[CoordinateController::class, 'showProvider'])->n
 
 Route::get('provider/{provider}/{assistance}/give',[assignmentAnswere::class, 'store'])->name('providers.assistances.give');
 
+////test
+Route::put('assistance/{provider}/{assistance}/updatestatus',[TestStatusController::class, 'teststatus'])->name('update.status.assistances');
+    
+
+////test
 
 Route::resource('categories', CategoryController::class)->names('categories');
 Route::resource('tags', TagController::class)->names('tags');

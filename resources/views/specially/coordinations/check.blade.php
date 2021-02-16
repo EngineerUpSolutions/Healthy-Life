@@ -58,7 +58,7 @@
         <div class="grid grid-cols-3 gap-4">
 
           <div class="">
-            <a href="{{route('coordinations.show',$provider)}}"><i class="fas fa-arrow-left">Back</i></a>
+            <a href="{{route('coordinations.show',$assistance )}}"><i class="fas fa-arrow-left">Back</i></a>
             
               
            </div>
@@ -77,17 +77,51 @@
             
            </div>
 
+
+
+
            <div>
 
             
-           
+             
+{{--   
             <a href="{{route('providers.assistances.give',[$provider,$assistance])}}" type="button"  class="border border-green-500 text-green-500 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:text-white hover:bg-green-600 focus:outline-none focus:shadow-outline">
             This match!
-            </a> 
+            </a>  --}}
+
+            {{-- test --}}
+
+             {{-- {!! Form::model($assistance, ['route'=>['update.status.assistances',$provider,$assistance],'method'=>'put' ]) !!}
+             {!! Form::hidden('symptoms', '1') !!}
+             {!! Form::hidden('email', $assistance->email) !!}
+             {!! Form::hidden('address', $assistance->address) !!} --}}
+             {{-- {!! Form::hidden('status', '1') !!}  --}}
+             {{-- {!! Form::number('status', '1') !!}
+        
+             {!! Form::hidden('user_id', $assistance->user->id) !!}
+           
+            
+             {!! Form::submit("Choose this one", ['class'=>'btn btn-primary']) !!}  
+             {!! Form::close() !!} --}}
+
+
+            {{-- test  --}}
+
+            
+            <a href="{{route('providers.assistances.give',[$provider,$assistance])}}" type="button"  class="border border-green-500 text-green-500 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:text-white hover:bg-green-600 focus:outline-none focus:shadow-outline">
+              This match!
+              </a> 
 
             <button class="border border-yellow-500 text-yellow-500 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:text-white hover:bg-yellow-600 focus:outline-none focus:shadow-outline">
               <a href="{{route('providers.editProvider',[$provider,$assistance])}}">Update</a>
              </button>
+
+           
+
+
+             
+        
+       
            </div>
 
 

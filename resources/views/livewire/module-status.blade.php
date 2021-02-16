@@ -221,6 +221,8 @@
                         <strong class="text-yellow-400 text-bold">{{$message}}</strong>
                         @enderror
                     </div>
+                    {{-- {!! Form::label('status', 'Status: ') !!}
+                        {!! Form::text('status','First step', ['class'=>'form-input block w-full mt-1','read-only']) !!} --}}
                     
 
                     {!! Form::hidden('user_id', $this->currentUser->id) !!}
@@ -272,7 +274,7 @@
 
                   
                   
-                        @livewire('result-assistance', ['user' => $this->currentUser], key($this->currentUser->id)) --}}
+                        @livewire('result-assistance', ['user' => $this->currentUser], key($this->currentUser->id)) 
 
                         
                   

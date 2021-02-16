@@ -23,7 +23,7 @@ class CreateAssistancesTable extends Migration
             $table->text('address');
 
             $table->enum('status',[Assistance::Coordinate,Assistance::Coordinated])->default(Assistance::Coordinate);
-
+            //  $table->text('status');
             // $table->unsignedBigInteger('lesson_id');
             // $table->foreign('lesson_id')->references('id')->on('lessons')->onDelete('cascade');
 

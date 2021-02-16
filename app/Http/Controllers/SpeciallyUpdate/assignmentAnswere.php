@@ -13,6 +13,12 @@ class assignmentAnswere extends Controller
 {
     public function store(Provider $provider, Assistance $assistance)
     {
+               
+            //    $assistance->update([
+            //        'status' => 1,
+            //    ]);
+
+                
                 Answere::create([
                 'assistance_id' => $assistance->id,
                 'provider_id' => $provider->id,
@@ -20,8 +26,10 @@ class assignmentAnswere extends Controller
                 ]);
                 
 
-          
-                return $provider;
+                // coordinations.index
+                // return $provider;
+
+                return view('specially.coordinations.index');
 
     }
 }
