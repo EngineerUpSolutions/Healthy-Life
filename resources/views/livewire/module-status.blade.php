@@ -125,7 +125,7 @@
                 @if ($currently->fillout == 1)
                 <br>
                  <div class="card">{{--ml-60 --}}
-                <section class="card-body bg-gray-700 text-center">{{-- mt-0 bg-gray-700 py-0 w-80 text-center text-7xl --}}
+                <section class="card-body bg-gray-500 text-center">{{-- mt-0 bg-gray-700 py-0 w-80 text-center text-7xl --}}
                     <div class=""> {{-- mt-1 bg-gray-600 py-7 text-center text-7xl --}}
                         <h1 class="">Fill out</h1>
                         </div>

@@ -3,7 +3,7 @@
         {{$module->slug}}
     </x-slot>
 
-    <h1 class="text-2xl font-bold mb-5">People that have been register for use this module!</h1>
+    <h1 class="text-2xl font-bold mb-5">People that have been registered for using this module!</h1>
     <hr class="mt-2 mb-6">
 
     {{-- //////// --}}
