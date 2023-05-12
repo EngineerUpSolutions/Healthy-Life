@@ -11,5 +11,9 @@
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
 # proyect
-app
+Please note , in order to use the code, you need to get selected the brand number 2 , so the latest updated will be reflected once you download all dependecies . I will attaching here all commands to be run in order to see make the platform works  
+
+
+This platform provides appointments to any patient who requests medical attention , the main objective is to cover north america bc travelers may need a lot to know more about where to receive assistance if needed. Also , provides  medical centers availability , so then patients can have the best and fast assistance based on their location
