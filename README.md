@@ -1,5 +1,5 @@
 # proyect
-Please note , in order to use the code, you need to get selected the brand third , so the latest updated will be reflected once you download all dependecies . I will attaching here all commands to be run in order to see make the platform works  
+Please note , in order to use the code, you need to choose the brand third3 to get started  , so the latest updated will be reflected once you download all dependecies . I will attaching here all commands to be run in order to see make the platform works  
 
 
 This platform provides appointments to any patient who requests medical attention by providing location of the medical center. Also, if possible schedule the appoitment , the main objective is to cover north america bc travelers may need  to know more about where to receive assistance if needed. Also , provides  medical centers availability , so then patients can have the best and fast assistance based on their location.
