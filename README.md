@@ -51,6 +51,7 @@ We invite you to explore our platform and experience its seamless functionality 
 ![image](https://github.com/dfhz-web/HEALTHYLIFE/assets/73003830/1f141010-1d2b-44b0-bdf7-846b1197c4ee)
 ![image](https://github.com/dfhz-web/HEALTHYLIFE/assets/73003830/e69fa84f-b39e-4817-a816-33dff0f6d37a)
 ![image](https://github.com/dfhz-web/HEALTHYLIFE/assets/73003830/626c95cc-ac9e-4f4c-ad8b-c245cb7f19c1)
+The interface where the appointment's details with its status is not being shown yet here, but it has been already developed and tested.
 
 
 
