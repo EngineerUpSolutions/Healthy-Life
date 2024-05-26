@@ -1,25 +1,24 @@
-# proyect
-Please note , in order to use the code, you need to choose the brand third3 to get started  , so the latest updated will be reflected once you download all dependecies . I will attaching here all commands to be run in order to see make the platform works  
+At the end of its presentation would be shown some images showing off its functionality.
+Platform Description
+Our platform facilitates medical appointments for individuals seeking healthcare services, offering the convenience of locating nearby medical centers. The primary focus is on North America, catering to travelers who may require immediate assistance while abroad. We prioritize providing real-time information on medical center availability to ensure swift and efficient assistance based on the user's geographical location.
 
+User Roles and Functionality
+Our platform encompasses various user roles, each assigned specific privileges by the master administrator. These roles include the administrator, coordinator, client, and provider, ensuring comprehensive coverage for all stakeholders. Administrators oversee the system's functionality, coordinators manage appointments, clients schedule appointments, and providers update their information. Additionally, customer representatives facilitate interactions between clients and providers, streamlining communication processes.
 
-This platform provides appointments to any patient who requests medical attention by providing location of the medical center. Also, if possible schedule the appoitment , the main objective is to cover north america bc travelers may need  to know more about where to receive assistance if needed. Also , provides  medical centers availability , so then patients can have the best and fast assistance based on their location.
+Appointment Management
+Upon a patient's request for medical assistance, our platform promptly assesses the required level of care, recognizing the critical nature of health emergencies. Our coordinators strive to confirm appointment details within a 48-hour window, prioritizing efficient scheduling. Patients gain access to an interface displaying comprehensive appointment details, enhancing transparency and engagement. We offer various package options during the registration process to cater to diverse user needs.
 
-Furthermore, this platform has credentials for any role giving by the master administrator, we have the administrator, the coordinator,  the clients, the provider. Basicalliy, we have roles for everyone  in that way, we can schedule the appointmets , providers are allowed  to update their info. Also, we have the role who allows our customer representative to handle the interaction with the provider. 
+Post-Appointment Feedback
+Following each appointment, we initiate a feedback process to ensure service quality. Patients receive notifications prompting them to participate in a survey, allowing us to gauge their satisfaction and address any concerns promptly.
 
-At the end ,  patients request medical assistance through the platform, we determine what type of assistance if needed bc we also know health is so delicated when having any dangerous symptom, we handle a window of 48 hours to get the appointment details . Once our coordinators set up the appointment, patiens will have a interface where it is showed all details about their appointment . In addition, we have different packages to be chosen at the moment of signing in .
+Development Progress and Future Plans
+Our platform continues to evolve, with ongoing development of geolocation capabilities nearing completion. Additionally, we are actively seeking sponsorships to support budding engineers embarking on their freelance journey. We are committed to delivering an exceptional user experience and welcome opportunities for collaboration and growth.
 
-
-And after patients attempt to their appointment , we sent a notification to confirm how was everything throughout a survery.
-
-
-Everything has been developed and updated , I am developing the geolocations to be ready and seek for sponsors who support enginers just starting with a lot of experience by his own as a freelancer.
-
-
-Along the platform , you will see that is amazing how it works.
-
-
-Please download all dependecies , so you can see how scalable is gonna be this platform .
+Conclusion
+We invite you to explore our platform and experience its seamless functionality firsthand.
 
 
 
-we are developing geolocation , we are almost done, and we are looking for sponsors who will lead us to succed
+
+
+
